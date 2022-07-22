@@ -1,0 +1,21 @@
+.sobremi{
+    background-color: #EAF2FD;
+    width: 100%;
+    padding: 4rem;
+}
+
+.sobremi__textos{
+    margin-left: 4rem;
+    line-height: 1.3rem;
+}
+
+.sobremi__titulo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sobremi__descripcion{
+    width: 60%;
+    font-size: 1rem;
+}

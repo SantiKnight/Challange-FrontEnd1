@@ -1,0 +1,72 @@
+.experiencias{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.experiencia__cartas{
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.experiencia__imagen{
+    float: left;
+    width: 70%;
+    padding: 2rem;
+}
+
+.experiencia__titulo{
+    margin-top: 13rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: 75%;
+}
+
+.experiencia__contenido{
+    padding: 1rem;
+}
+
+.experiencia__descripcion{
+    margin-left: 59rem;
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.experiencia__boton{
+    color: #2A7AE4;
+    margin-left: 2rem;
+    border: solid 1px #2A7AE4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0.75rem;
+}
+
+.experiencia__boton:hover{
+    cursor: pointer;
+}
+
+.Demo{
+    color: white;
+    background-color: #2A7AE4;
+}
+
+#ahorcado{
+    margin-left: 57rem;
+}

@@ -52,3 +52,113 @@
     padding-left: 1.5rem;
     padding-bottom: 1.5rem;
 }
+
+@media screen and (min-width: 768px) and (max-width: 988px){
+    .formacion_academica{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        background-color: #EAF2FD;
+        width: 75%;
+        margin-top: 2rem;
+    }
+    
+    .formacion__cartas{
+        margin-top: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: space-around;
+        background-color: #fdfdfd;
+    }
+    
+    .formacion__imagen{
+        width: 80%;
+        padding-left: 2rem;
+        height: 100px;
+    }
+    
+    .formacion__titulo{
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    
+    .formacion{ 
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        margin-right: 2rem;
+        width: calc(33% - 1.5rem);
+    }
+    
+    .formacion__descripcion{
+        height: 20px;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    .formacion__nombre{
+        height: 70px;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .formacion_academica{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        background-color: #EAF2FD;
+        width: 115%;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .formacion__cartas{
+        margin-top: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #fdfdfd;
+    }
+    
+    .formacion__imagen{
+        width: 90%;
+        padding-left: 2rem;
+        height: 100px;
+    }
+    
+    .formacion__titulo{
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    
+    .formacion{ 
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        margin-right: 2rem;
+        width: calc(33% - 2rem);
+    }
+    
+    .formacion__descripcion{
+        height: 20px;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    .formacion__nombre{
+        height: 70px;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}

@@ -9,6 +9,7 @@ a{
     text-decoration: none;
     color:#464646;
 }
+
 .header{
     height: 50px;
     display: flex;
@@ -49,4 +50,72 @@ footer{
 .sticky-footer{
     position: sticky;
     top: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 988px){
+    body{
+        font-size: 10px;
+        min-height: 100vh;
+        min-width: 100%;
+    }
+
+    .header{
+        margin-left: -7rem;
+        height: 35px;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    footer{
+        width: 78%;
+        text-align: center;
+        background-color: #0A3871;
+        padding: 20px;
+    }
+
+    .img-footer{
+        border-radius: 6px;
+        height: 40px;
+        width: auto;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+        font-size: 10px;
+        min-height: 100vh;
+        min-width: 100%;
+    }
+
+    .header{
+        padding: 2rem;
+        margin-left: 3rem;
+        height: 35px;
+        width: auto;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: #0A3871;
+        padding: 20px;
+    }
+
+    .img-footer{
+        border-radius: 6px;
+        height: 40px;
+        width: auto;
+        margin: 0 10px;
+    }
 }
